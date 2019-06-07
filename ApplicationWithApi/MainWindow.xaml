@@ -1,0 +1,18 @@
+﻿<Window x:Class="ApplicationWithApi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApplicationWithApi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="255,143,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="114,143,0,0" TextWrapping="Wrap" Text="Введите любое число: " VerticalAlignment="Top" Height="23" Width="123" RenderTransformOrigin="0.632,0.472"/>
+        <TextBlock HorizontalAlignment="Left" Margin="114,90,0,0" TextWrapping="Wrap" Text="Факты про числа!
+                   " VerticalAlignment="Top" RenderTransformOrigin="-0.02,0.651" Width="196" Height="25"/>
+        <TextBlock x:Name="factTextBlock" HorizontalAlignment="Left" Margin="114,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="473" Height="53"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,202,0,0" TextWrapping="Wrap" Text="Факт:" VerticalAlignment="Top"/>
+        <Button Content="Узнать факт" HorizontalAlignment="Left" Margin="404,143,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click"/>
+    </Grid>
+</Window>
